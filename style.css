@@ -1,0 +1,45 @@
+html{
+    margin:0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    background-color: lightcyan;
+    position: relative;
+    width: 100%;
+}
+main{
+    
+    height: 100%;
+}
+#textInput {
+    max-width: 100%;
+    margin: 20px;
+}
+footer{
+    background-color: lightcyan;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10%;
+    margin: 0;
+}
+
+@media (min-width: 768px){
+    body{
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header{
+        background-color: lightseagreen;
+    }
+    footer{
+        background-color: lightseagreen;
+    };
+}
